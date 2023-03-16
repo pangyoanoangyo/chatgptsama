@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+.circles {
+    display: flex;
+}
+
+.circle {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+#circle1 {
+    background-color: red;
+}
+
+#circle2 {
+    background-color: orange;
+}
+
+#circle3 {
+    background-color: green;
+}
